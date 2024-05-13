@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>XXX-重置密码</title>
+		<link rel="stylesheet" type="text/css" href="./css/login.css">
+	</head>
+	<body style="background:url(./images/sss123.jpg);">
+		<div class="logo"><a href="index.html"><img src="" alt="img"></a></div>
+		<div class="login">
+			<h2 style="">XXX欢迎您</h2>
+			<div class="loginbox">
+				<div class="loginbox-left"><img src="./images/cou.jpg"></div>
+				<div class="loginbox-right">
+					<div style="text-align: center; margin-top: 30px ">
+						<h3>重置密码</h3>
+					</div>
+
+					<form>
+						<input type="number" maxlength="11" class="inp" placeholder="请输入手机号" name="" />
+						<input type="password" maxlength="16" class="inp" placeholder="请输入新密码" name="" />
+						<input type="password" maxlength="16" class="inp" placeholder="请确认新密码" name="" />
+						<div style="display: flex;flex-direction: row;">
+							<input style="width: 100px;margin-right: 0px;" type="text" maxlength="4" class="inp"
+								placeholder="请输入验证码" name="" />
+
+							<input class="vc" type="button" value="获取验证码" name="get_msg" onclick="set_time(this)" />
+						</div>
+						<div class="mi-box">
+							<div class="mi-box-a"><a style="color: #fff;" href="">重置</a></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script>
+			var init_down_time = 30; /*倒计时总时长*/
+			var down_time = 30; /*倒计时变量*/
+			function set_time(val) {
+				if (down_time == 0) {
+					val.removeAttribute("disabled"); /*移除框的属性*/
+					val.value = "获取验证码";
+					down_time = init_down_time;
+				} else {
+					val.setAttribute("disabled", true); /*设置框的属性*/
+					val.value = "重新发送(" + down_time + ")";
+					down_time--;
+
+					setTimeout(function() {
+						set_time(val)
+					}, 1000); /*设置一秒*/
+				}
+			}
+		</script>
+	</body>
+</html>

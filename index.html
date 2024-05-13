@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="./css/top.css">
+		<!--头部导航栏和右侧导航栏的css-->
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="stylesheet" type="text/css" href="./css/body.css">
+		<link rel="stylesheet" type="text/css" href="./css/index-a.css">
+		<script language="javascript" src="js/jquery-min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<!--轮播图的js-->
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<!--图片滑过的js-->
+
+	</head>
+	<body>
+		<!--头部功能-->
+		<div id="head-fixed">
+			<!--先固定头部再说,-->
+			<div class="top" id="head-fixed">
+				<div class="logo"><img src="" alt="img"></div>
+				<!--logo-->
+				<div class="nav">
+					<ul>
+						<li><a href="./selected.html" style="color: #6A6AFF;">创意精选</a></li>
+						<li><a href="#">人像</a></li>
+						<li><a href="#">实拍</a></li>
+						<li><a href="#">视频</a></li>
+						<li><a href="#">素材</a></li>
+						<li><a href="#">模板</a></li>
+						<li><a href="#">新境界</a></li>
+						<li><a href="#">更多</a></li>
+					</ul>
+				</div>
+				<!--nav-->
+				<div class="vip">
+					<a href="#">个人vip</a>
+					<a href="#">企业vip</a>
+				</div>
+				<!--vip-->
+				<div class="land">
+					<div id="" class="land-a">
+						<div class="box flex flex-star flex-item">
+							<div class="login-btn"><a href="login.html"> 登录</a></div>
+							<div class="re-btn"><a href="register.html">注册</a></div>
+						</div>
+					</div>
+					<!--登录-->
+				</div>
+			</div>
+			<!--nav结束-->
+		</div>
+		<!--id=‘head-fixed’-->
+
+		<script type="text/javascript" src="js/head-fixed.js"></script>
+		<!--头部固定在顶部的js-->
+		<!--右侧导航栏-->
+		<div class="right_nav">
+			<div class="but-a" style="user-select:none;">
+				在线客服
+				<div class="buy"><img src="./img/erweima.jpg"></div>
+			</div>
+			<div class="but-a" style="user-select:none;">&nbsp;&nbsp;APP版
+				<div class="buy"><img src="./img/erweima.jpg"></div>
+			</div>
+			<div class="but-aa"><a href="#top">&lt;</a></div>
+		</div>
+		<script type="text/javascript" src="js/right.js"></script>
+		<!--右侧导航栏弹出图片的js-->
+		<!--右侧导航栏结束-->
+
+
+		<!--搜索功能-->
+		<div class="container" style="margin-top:50px; min-width:1350px;position:relative;z-index:1;">
+
+			<div class="input">
+				<input type="text" placeholder="请输入要搜索的内容" autocomplete="off" id="search-input">
+				<div class="picker">全部分类</div>
+				<ul class="picker-list">
+					<li style="background-image: url(img/ico_baidu.png)" data-logo="baidu.png">照片</li>
+					<li style="background-image: url(img/ico_sogou.png)" data-logo="sogou.png">实拍</li>
+					<li style="background-image: url(img/ico_bing.png)" data-logo="bing.png">视频</li>
+					<li style="background-image: url(img/ico_google.ico)" data-logo="google.png">设计模板</li>
+					<li style="background-image: url(img/ico_google.ico)" data-logo="google.png">创意背景</li>
+					<li style="background-image: url(img/ico_google.ico)" data-logo="google.png">插画</li>
+					<li style="background-image: url(img/ico_google.ico)" data-logo="google.png">摄影</li>
+					<li style="background-image: url(img/ico_google.ico)" data-logo="google.png">素材</li>
+				</ul>
+				<div style="position:relative;z-index:1; " class="hot-list"></div>
+			</div>
+			<div class="search">搜索</div>
+		</div>
+		<!--搜索功能结束-->
+
+		<!--每日精选导航栏-->
+		<div style="height:60px;"></div>
+
+		<div class="meiri">
+			<ul>
+				<li><a href="" style="color: rgb(255,0,0);">每日精选</a></li>
+				<li><a href="">旅游</a></li>
+				<li><a href="">学习</a></li>
+				<li><a href="">医疗</a></li>
+				<li><a href="">交通</a></li>
+				<li><a href="">编程</a></li>
+				<li><a href="">招聘</a></li>
+				<li><a href="">设计师</a></li>
+				<li><a href="">高铁</a></li>
+				<li><a href="">画册</a></li>
+			</ul>
+		</div>
+		<!--每日精选导航栏结束-->
+		<!--轮播图功能-->
+		<div id="flash">
+			<div id="prev"></div>
+			<div id="next"></div>
+			<ul id="play">
+				<li style="display: block;"><img src="images/img-1.jpg" alt="img" /></li>
+				<li><img src="images/img-2.jpg" alt="img" /></li>
+				<li><img src="images/img-3.jpg" alt="img" /></li>
+				<li><img src="images/img-4.jpg" alt="img" /></li>
+				<li><img src="images/img-5.jpg" alt="img" /></li>
+				<li><img src="images/img-6.jpg" alt="img" /></li>
+				<li><img src="images/byj-1.jpg" alt="img" /></li>
+				<li><img src="images/img-8.jpg" alt="img" /></li>
+			</ul>
+			<ul id="button">
+				<!--轮播图按钮-->
+				<li>
+					<div style="background: #A10000;"></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div></div>
+				</li>
+			</ul>
+		</div>
+		<!--轮播图结束-->
+		<!--轮播图下面的图片展示功能-->
+		<div class="min-box">
+			<ul>
+				<li><a href=""><img src="images/img-9.jpg"></a></li>
+				<li><a href=""><img src="images/img-10.jpg"></a></li>
+				<li><a href=""><img src="images/img-11.jpg"></a></li>
+				<li><a href=""><img src="images/img-12.jpg"></a></li>
+				<li><a href=""><img src="images/img-13.jpg"></a></li>
+			</ul>
+		</div>
+		<div class="min-box-a">
+			<ul>
+				<li><a href="">传统节日</a></li>
+				<li><a href="">设计模板</a></li>
+				<li><a href="">二十四节气</a></li>
+				<li><a href="">毕业季</a></li>
+				<li><a href="">创意背景</a></li>
+				<li><a href="">免扣元素</a></li>
+				<li><a href="">旅游景点</a></li>
+				<li><a href="">乡村风景</a></li>
+			</ul>
+		</div>
+		<!--轮播图下面的图片展示功能结束-->
+		<!--精选专题功能-->
+		<div class="warp">
+			<div class="tit">
+				<h4>Featured album</h5>
+					<h1>精选专题</h2>
+			</div>
+			<div class="image-a">
+				<ul>
+					<li><a href=""><img src="images/img-14.jpg" alt="img">
+							<p>摄影</p>
+						</a></li>
+					<li><a href=""><img src="images/img-15.jpg" alt="img">
+							<p>传统节日</p>
+						</a></li>
+					<li><a href=""><img src="images/img-16.jpg" alt="img">
+							<p>动漫专题</p>
+						</a></li>
+					<li><a href=""><img src="images/img-17.jpg" alt="img">
+							<p>城市</p>
+						</a></li>
+				</ul>
+			</div>
+
+			<div class="image-b">
+				<!--第二层-->
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/img-18.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> 情人节 </div>
+						</a>
+					</div>
+					<p>情人节巧克力</p>
+				</div>
+				<!--图片的结束-->
+
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/img-19.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> 西式糕点 </div>
+						</a>
+					</div>
+					<p>食物</p>
+				</div>
+				<!--图片的结束-->
+
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/img-20.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> AI插画 </div>
+						</a>
+					</div>
+					<p>夏夜AI插画</p>
+				</div>
+				<!--图片的结束-->
+
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/img-21.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> 壁纸 </div>
+						</a>
+					</div>
+					<p>唯美电脑桌面壁纸</p>
+				</div>
+				<!--图片的结束-->
+			</div>
+			<!--第二层结束-->
+
+			<div class="image-b">
+				<!--第三层-->
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/byj-2.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext">致青春 </div>
+						</a>
+					</div>
+					<p>毕业季</p>
+				</div>
+				<!--图片的结束-->
+
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/ys-1.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> 创意 </div>
+						</a>
+					</div>
+					<p>《甄嬛传》创意海报</p>
+				</div>
+				<!--图片的结束-->
+
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/img-25.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> 奥运会 </div>
+						</a>
+					</div>
+					<p>东京奥运会</p>
+				</div>
+				<!--图片的结束-->
+
+				<div class="zzsc">
+					<!--图片的开始-->
+					<a href="#" target="_blank"><img id="image" src="images/lv-2.jpg"></a>
+					<div class="text">
+						<!--鼠标悬停弹出的文字层-->
+						<a href="#">
+							<div class="imgtext"> 国内旅游 </div>
+						</a>
+					</div>
+					<p>夕阳下的故宫博物院</p>
+				</div>
+				<!--图片的结束-->
+			</div>
+			<!--第三层结束-->
+		</div>
+		<!--warp结束-->
+
+		<div class="new"><a href="">查看更多专辑</a></div>
+		<!--精选专题功能结束-->
+		<!--国内旅游攻略展示-->
+		<div class="warp-a">
+			<div class="tit">
+				<h4>Domestic tourist attractions</h4>
+				<h1>国内旅游景点</h1>
+			</div>
+			<div class="warp-a-image-a">
+				<ul>
+					<!--第一层图片-->
+					<li><a href=""><img src="images/beijing.jpg" alt="img">
+							<p>北京</p>
+						</a></li>
+					<li><a href=""><img src="images/shanghai.jpg" alt="img">
+							<p>上海</p>
+						</a></li>
+					<li><a href=""><img src="images/wuhan.jpg" alt="img">
+							<p>武汉</p>
+						</a></li>
+					<li><a href=""><img src="images/guangzhou.jpg" alt="img">
+							<p>广州</p>
+						</a></li>
+				</ul>
+				<ul>
+					<!--第二层图片-->
+					<li><a href=""><img src="images/chongqing.jpg" alt="img">
+							<p>重庆</p>
+						</a></li>
+					<li><a href=""><img src="images/suzhou.jpg" alt="img">
+							<p>苏州</p>
+						</a></li>
+					<li><a href=""><img src="images/xian.jpg" alt="img">
+							<p>西安</p>
+						</a></li>
+					<li><a href=""><img src="images/sanya.jpg" alt="img">
+							<p>三亚</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--点击切换图片功能-->
+		<div class="div_body">
+			<ul class="img-nav">
+				<li class="selected">创意插画</li>
+				<li>电商海报</li>
+				<li>美女写真</li>
+
+				<li>科技时代</li>
+
+			</ul>
+			<div class="img-content">
+				<div class="list ">
+					<a href=""><img id="ima-nav" src="images/zp-1.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-2.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-3.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-4.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-5.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-6.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-7.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-8.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-9.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-10.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-11.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-12.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-13.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-14.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-15.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-16.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-17.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-18.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-19.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-20.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-21.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-22.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-23.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-24.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-25.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-26.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-27.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-28.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-29.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-30.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-31.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-32.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-33.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-34.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-35.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-36.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-37.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-38.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-39.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/zp-40.jpg"></a>
+				</div>
+				<div class="list">
+					<a href=""><img id="ima-nav" src="images/hb-1.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-2.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-3.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-4.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-5.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-6.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-7.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-8.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-9.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-10.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-11.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-12.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-13.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-14.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-15.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-16.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-17.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-18.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-19.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-20.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-21.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-22.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-23.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-24.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-25.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-26.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-27.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-28.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-29.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-30.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-31.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-32.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-33.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-34.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-35.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-36.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-37.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-38.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-39.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-40.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-41.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-42.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-43.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-44.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-45.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-46.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-47.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-48.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-49.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-50.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-4.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/hb-40.jpg"></a>
+				</div>
+				<div class="list">
+					<a href=""><img id="ima-nav" src="images/mn-1.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-2.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-3.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-4.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-5.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-6.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-7.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-8.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-9.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-10.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-11.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-12.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-13.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-14.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-15.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-16.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-17.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-18.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-19.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-20.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-21.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-22.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-23.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-24.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-25.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-26.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-27.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-28.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-29.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-30.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-31.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-32.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-33.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-34.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-35.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-36.jpeg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-37.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-38.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-39.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-40.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-41.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-42.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-43.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-44.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-45.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-46.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-47.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-48.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-49.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/mn-50.jpg"></a>
+				</div>
+				<div class="list">
+					<a href=""><img id="ima-nav" src="images/kj-1.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-2.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-3.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-4.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-5.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-6.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-7.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-8.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-9.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-10.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-11.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-12.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-13.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-14.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-15.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-16.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-17.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-18.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-19.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-20.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-21.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-22.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-23.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-24.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-25.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-26.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-27.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-28.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-29.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-30.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-31.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-32.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-33.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-34.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-35.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-36.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-37.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-38.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-39.jpg"></a>
+					<a href=""><img id="ima-nav" src="images/kj-40.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="new"><a href="">发现更多</a></div>
+
+
+		<!--留言板功能-->
+
+		<div class="tit">
+			<h4>Designer's message</h4>
+			<h1>设计师的声音</h1>
+		</div>
+		<div style="user-select:none; height:500px">
+			<marquee behavior="scroll" direction="left" scrollamount="10">
+				<font size="8px"><img id="marquee" src="images/id-2.jpg">我是平面设计行业的，这个网站刚好适合我</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="15">
+				<font size="8px"><img id="marquee" src="images/id-3.jpg"> 美女图片能来多一点吗？</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="20">
+				<font size="8px"><img id="marquee" src="images/id-6.jpg"> 好好好好</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="25">
+				<font size="8px"><img id="marquee" src="images/id-7.jpg"> 美术专业路过</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="30">
+				<font size="8px"><img id="marquee" src="images/id-9.jpg"> 评论区都是牛人</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="35">
+				<font size="8px"><img id="marquee" src="images/id-10.jpg">能有视频功能就更好了</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="40">
+				<font size="8px"><img id="marquee" src="images/id-12.jpg">打卡2021年9月1日</font>
+			</marquee>
+			<marquee behavior="scroll" direction="left" scrollamount="45">
+				<font size="8px"><img id="marquee" src="images/id-5.jpg"> 感谢大家的支持</font>
+			</marquee>
+		</div>
+
+		<div class="footer-box">
+			<div class="footer-container">
+				<div class="footer-service clearfix">
+					<div class="footer-service-item footer-icon-001">
+						<i></i>
+						<span>专注服务于设计领域</span>
+					</div>
+					<div class="footer-service-item footer-icon-002">
+						<i></i>
+						<span>资深设计师团队</span>
+					</div>
+					<div class="footer-service-item footer-icon-003">
+						<i></i>
+						<span>500万用户诚意推荐</span>
+					</div>
+					<div class="footer-service-item footer-icon-004">
+
+					</div>
+				</div>
+				<div class="footer-line"></div>
+				<div class="footer-links clearfix">
+					<dl class="footer-article-item">
+						<dt>关于我们</dt>
+						<dd>
+							<a href="#">公司介绍</a>
+						</dd>
+						<dd>
+							<a href="#">公司地址</a>
+						</dd>
+						<dd>
+							<a href="#">发展历程</a>
+						</dd>
+						<dd>
+							<a href="#">团队风采</a>
+						</dd>
+						<dd>
+							<a href="#">加入我们</a>
+						</dd>
+					</dl>
+					<dl class="footer-article-item">
+						<dt>为您推荐</dt>
+						<dd>
+							<a href="#">设计师必备</a>
+						</dd>
+						<dd>
+							<a href="#">城市风光</a>
+						</dd>
+						<dd>
+							<a href="#">免扣元素</a>
+						</dd>
+						<dd>
+							<a href="#">logo模板</a>
+						</dd>
+						<dd>
+							<a href="#">学习教育</a>
+						</dd>
+					</dl>
+					<dl class="footer-article-item">
+						<dt>VIP服务</dt>
+						<dd>
+							<a href="#">个人vip</a>
+						</dd>
+						<dd>
+							<a href="#">企业vip</a>
+						</dd>
+						<dd>
+							<a href="#">授权协议</a>
+						</dd>
+						<dd>
+							<a href="#">联系客服</a>
+						</dd>
+					</dl>
+					<dl class="footer-article-item">
+						<dt>其他</dt>
+						<dd>
+							<a href="#">服务支持</a>
+						</dd>
+						<dd>
+							<a href="#">电商大会</a>
+						</dd>
+						<dd>
+							<a href="#">投诉建议</a>
+						</dd>
+						<dd>
+							<a href="#">为您推荐</a>
+						</dd>
+					</dl>
+					<dl class="footer-contact-item">
+						<h3>联系我们</h3>
+						<p>400-010-xxx</p>
+						<div class="footer-ewm">
+							<img src="images/vm.png" alt="">
+						</div>
+					</dl>
+				</div>
+				<div class="footer-friend">
+					<div class="footer-friend-title">友情链接：</div>
+					<ul class="footer-friend-title-list clearfix">
+						<li>
+							<a href="#">国家企业信用信息公示系统</a>
+						</li>
+						<li><a href="#">ICP/IP地址/域名备案信息查询</a></li>
+						<li>
+							<a href="#">国家市场监督管理总局</a>
+						</li>
+						<li>
+							<a href="#">网址导航</a>
+						</li>
+						<li>
+							<a href="#">网页地图</a>
+						</li>
+						<li>
+							<a href="#">公司简介</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="footer-copyright">
+					<p>© 2021-2022 XXXX版权所有，并保留所有权利</p>
+					<p>
+						XXXXX有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="#">
+							<img src="images/icon-footer.png" alt="">**网安备 0008899999xxxx号
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!--搜索框的js-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				helangSearch.init();
+			})
+		</script>
+
+		<!--搜索框的js-->
+		<script type="text/javascript" src="js/mouse-hover-img-top.js"></script>
+		<!--鼠标滑过图片遮罩层弹出的js-->
+		<script type="text/javascript" src="js/mouse-img.js"></script>
+		<!--切换图片导航菜单栏的js-->
+
+	</body>
+</html>
