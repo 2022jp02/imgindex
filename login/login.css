@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(sss123.jpg);
+	font-style: "微软雅黑";
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.login{
+	width: 600px;
+	height:400px;
+	border: 1px solid green;
+	position:absolute;
+    top:50%;
+    left:50%;
+    margin:-225px 0 0 -300px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+
+}
+
+.loginbox{
+	display: flex;
+	flex-direction: row;
+}
+
+h2{
+	color: #57B3FF;
+	font-weight: bold;
+	margin: 20px 30px;text-align: left;
+}
+
+h3{
+	font-weight: bold;
+	font-style: "黑体";
+}
+.loginbox-left{
+width: 350px;
+height:400px;
+
+}
+
+.loginbox-right{
+width: 250px;
+height:400px;
+}
+
+.loginbox-left img{
+	padding: 20px 20px;
+	width: 300px;
+	height: 300px;
+}
+
+input{
+	margin: 12px 20px;
+
+	font-size: 12px;
+	width: 200px;height:20px;
+	background-color: none;
+	border-top: none;
+	border-right : none;
+	border-left: none;
+	border-bottom:1px solid #57B3FF; 
+}
+
+.inp:focus {
+
+outline:none;
+
+    border-bottom: 2px solid #57B4FF;
+
+}
+
+.mi-box{
+width: 250px;
+height: 30px;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+
+}
+
+.mi-box-a{
+	background-color:#34A1FE;
+	height: 30px;width: 200px;
+}
+
+
+a{
+	text-decoration: none;line-height:30px;
+list-style: none;font-weight: bold;
+
+}
+
+.mi-box-a:hover{
+	background-color: #5C7DC2;
+}
+
+ul{
+	margin-top: 5px;
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	font-size: 5px;
+}
+
+li{
+	margin-right: 120px;
+}
+
+li a{
+	color: #5C7DC2;
+}
+
+li a:hover{
+color:#34A1FE;
+}

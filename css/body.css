@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+	font: 16px Verdana, Arial, Tahoma;
+	overflow-x: hidden;
+	font-family: '微软雅黑';
+	/*禁止屏幕出现横向滚动条*/
+	/*保持屏幕不随着浏览器大小而改变可以用。min-width:1350px;margin:0px 30%;*/
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
